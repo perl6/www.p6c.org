@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
     <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>p6c.org - Perl 6 Community Servers</title>
         <link href="http://perl6.org/favicon.ico" rel="icon">
         <style>
@@ -13,7 +14,7 @@
                 font: sans-serif;
             }
 
-            section, #col1, #col2 {
+            section {
                 color: #000000;
                 -moz-box-shadow: 5px 5px 10px #888;
                 -webkit-box-shadow: 5px 5px 10px #888;
@@ -26,6 +27,16 @@
                 max-width: 45em;
                 margin: 1.5em;
                 padding: 1em 1em 1em 1em;
+            }
+
+            @media all and (max-width: 500px) {
+                section {
+                    margin: 1.5em 0;
+                }
+
+                body {
+                    padding: 0;
+                }
             }
         </style>
     </head>
